@@ -1,12 +1,11 @@
-// albums/index.js
-
 // Import library to help create component
 import React from 'react'
 import { AppRegistry, Text } from 'react-native'
+import Header from './src/components/header'
 
 // Create a component
 const App = () => (
-  <Text>Gar Manarnar</Text>
+  <Header headerText={'Albums'} />
 )
 
 // Render it to the device
